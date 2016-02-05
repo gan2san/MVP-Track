@@ -7,87 +7,125 @@
 	</div>
 	<div class="setting-content">
 		<h1>Company Setup</h1>
-		<ul class="nav nav-tabs">
+		<!-- <ul class="nav nav-tabs">
 		  <li class="active"><a href="#home" data-toggle="tab">Locallization</a></li>
 		  <li><a href="#profile" data-toggle="tab">Branding</a></li>
-		</ul>
+		</ul> 
 		<div id="myTabContent" class="tab-content setting-details">
 			  <div class="tab-pane fade active in" id="home">
-			    <form class="form-horizontal">
-				  <fieldset>
-				    <div class="form-group">
-				      <label for="inputEmail" class="col-lg-3 control-label">Email</label>
-				      <div class="col-lg-8">
-				        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-				      </div>
-				    </div>
-				    <div class="form-group">
-				      <label for="inputPassword" class="col-lg-3 control-label">Password</label>
-				      <div class="col-lg-8">
-				        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-				        <div class="checkbox">
-				          <label>
-				            <input type="checkbox"> Checkbox
-				          </label>
-				        </div>
-				      </div>
-				    </div>
-				    <div class="form-group">
-				      <label for="textArea" class="col-lg-3 control-label">Textarea</label>
-				      <div class="col-lg-8">
-				        <textarea class="form-control" rows="3" id="textArea"></textarea>
-				        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-				      </div>
-				    </div>
-				    <div class="form-group">
-				      <label class="col-lg-3 control-label">Radios</label>
-				      <div class="col-lg-8">
-				        <div class="radio">
-				          <label>
-				            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-				            Option one is this
-				          </label>
-				        </div>
-				        <div class="radio">
-				          <label>
-				            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-				            Option two can be something else
-				          </label>
-				        </div>
-				      </div>
-				    </div>
-				    <div class="form-group">
-				      <label for="select" class="col-lg-3 control-label">Selects</label>
-				      <div class="col-lg-8">
-				        <select class="form-control" id="select">
-				          <option>1</option>
-				          <option>2</option>
-				          <option>3</option>
-				          <option>4</option>
-				          <option>5</option>
-				        </select>
-				        <br>
-				        <select multiple="" class="form-control">
-				          <option>1</option>
-				          <option>2</option>
-				          <option>3</option>
-				          <option>4</option>
-				          <option>5</option>
-				        </select>
-				      </div>
-				    </div>
-				    
-				  </fieldset>
-	</form>
-			  </div>
+			      </div>
 		  <div class="tab-pane fade" id="profile">
 		    <p>Company branding</p>
 		  </div>
-		</div>
-		<div class="save-form">
-			<button class="btn btn-primary">Save</button>
-		<button class="btn  btn-link">Cancel</button>
-		</div>
+		</div>-->
+   <div class="panel panel-default">
+		<div class="panel-body">
+		<form class="form-horizontal col-sm-9">
+			<h4>Company Details</h4>
+			 <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Name of the Company</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="Enter Company Name">
+			    </div>
+			  </div>
+			  <br>
+			  <h4>Web Property</h4>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Web Property #1</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="https://wwww.mycompany.com/">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Web Property #2</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="https://wwww.mycompany.com/">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label"></label>
+			    <div class="col-sm-9">
+			      <button type="submit" class="btn btn-default" formaction="type.php">Add More</button>
+			    </div>
+			  </div>
+			   <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Support Domain</label>
+			    <div class="col-sm-9">
+
+			      <div class="input-group">
+			      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+			      <div class="input-group-addon">PureCloud.com</div>
+			    </div>
+			    <small>Need vanity support URL at support.yourcompany.com? </small>
+
+			    </div>
+			  </div>
+			  <br>
+			  <h4>Localization</h4>
+			  
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Default Timezone</label>
+			    <div class="col-sm-9">
+			      <select class="form-control" id="exampleSelect1">
+                  <option value="0">India UTC+05:30</option>
+                  <option value="1">India UTC+05:30</option>
+                  <option value="2">India UTC+05:30</option>
+                  <option value="3">India UTC+05:30</option>
+                  <option value="4">India UTC+05:30</option>
+                  <option value="5">India UTC+05:30</option>
+                </select>
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Primary Language</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="English">
+			    </div>
+			  </div>
+			  <br>
+			  <h4>Authorized Person</h4>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Name</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="Enter Name">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Email ID</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="Enter Ofiicial Email ID">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Phone Number</label>
+			    <div class="col-sm-9">
+			      <input type="text" class="form-control" id="Agentname" placeholder="Enter Phone Number">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="Agentname" class="col-sm-3 form-control-label">Address</label>
+			    <div class="col-sm-9">
+			      <textarea class="form-control" placeholder="Enter Office Address"></textarea>
+			    </div>
+			  </div>
+			  
+
+		<div class="clearfix"></div>
+
+        <div class="form-group row">
+            <div class="col-sm-8  col-sm-push-3">
+            <button type="submit" class="btn btn-default" formaction="type.php">Cancel</button>
+            <button type="submit" class="btn btn-primary" formaction="type.php">Save</button>
+            </div>
+          </div>
+
+	</form>
+			
+		
+	</div>
+</div>
+
+
 	</div>	
 </div>
 <?php include("footer.php") ?>

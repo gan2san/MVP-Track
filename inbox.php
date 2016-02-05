@@ -7,13 +7,23 @@
 		</div>
 		<div class="inbox-wrapper">
 			<div class="faceted-search">
-				  <div class="panel-group" id="accordion">
-				    <div class="panel panel-default">
-				      <div class="panel-heading">
-				        <h4 class="panel-title">
-				          <a data-toggle="collapse"  data-parent="#collapse1" href="#collapse1">Views</a>
-				        </h4>
-				      </div>
+
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">View</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Filters</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+
+    	<div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+				      
 				      <div id="collapse1" class="panel-collapse collapse in">
 				        <div class="panel-body">
 				        	<label>All</label>
@@ -28,13 +38,24 @@
 				        </div>
 				      </div>
 				    </div>
+				  </div>
+
+
+
+
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+
+
+    	<div class="panel-group" id="accordion">
+				    
 				    <div class="panel panel-default">
 				      <div class="panel-heading">
 				        <h4 class="panel-title">
 				          <a data-toggle="collapse"  data-parent="#collapse2" href="#collapse2">Ticket ID</a>
 				        </h4>
 				      </div>
-				      <div id="collapse2" class="panel-collapse collapse">
+				      <div id="collapse2" class="panel-collapse collapse in">
 				        <div class="panel-body">
 				        	<input type="text" name="" id="" class="form-control" placeholder="Ticket ID">
 				        </div>
@@ -66,7 +87,14 @@
 				        </h4>
 				      </div>
 				      <div id="collapse4" class="panel-collapse collapse">
-				        <div class="panel-body">...</div>
+				        <div class="panel-body">
+				        	 <select class="form-control" id="exampleSelect1">
+			                  <option value="0">Critical</option>
+			                  <option value="1">High</option>
+			                  <option value="2">Mid</option>
+			                  <option value="3">Low</option>
+			                </select>
+				        </div>
 				      </div>
 				    </div>
 				    <div class="panel panel-default">
@@ -76,7 +104,9 @@
 				        </h4>
 				      </div>
 				      <div id="collapse5" class="panel-collapse collapse">
-				        <div class="panel-body">...</div>
+				        <div class="panel-body">
+				        	<input type="text" name="" id="" class="form-control" placeholder="Agent Name">
+				        </div>
 				      </div>
 				    </div>
 				    <div class="panel panel-default">
@@ -86,7 +116,9 @@
 				        </h4>
 				      </div>
 				      <div id="collapse6" class="panel-collapse collapse">
-				        <div class="panel-body">...</div>
+				        <div class="panel-body">
+				        	<input type="text" name="" id="" class="form-control" placeholder="Reguestor Name">
+				        </div>
 				      </div>
 				    </div>
 				    <div class="panel panel-default">
@@ -109,7 +141,20 @@
 				        <div class="panel-body">...</div>
 				      </div>
 				    </div>
-				  </div> 
+				  </div>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+				   
 
 			</div>
 			<div class="inbox">
@@ -151,6 +196,17 @@
 				  </div>
 
 		  <!-- Table -->
+
+
+		  <div class="tags" style="margin:10px">
+		      <span class="tag tag-with-remove btn btn-xs btn-default">Ticket ID: #35345<a class="remove" href="#">×</a></span>
+		      <span class="tag tag-with-remove btn btn-xs btn-default">Status: Open<a class="remove" href="#">×</a></span>
+		      <span class="tag tag-with-remove btn btn-xs btn-default">Priority: Critical<a class="remove" href="#">×</a></span>
+		      <span class="tag tag-with-remove btn btn-xs btn-default">Agent: Waheed Panjri<a class="remove" href="#">×</a></span>
+		     
+		    </div>
+
+
 		  <table class="table">
 			  <thead>
 			    <tr>

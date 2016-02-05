@@ -28,7 +28,7 @@
           <div class="form-group row">
             <label for="inputPassword3" class="col-sm-3 form-control-label">Priority Order</label>
             <div class="col-sm-9">
-              <select class="form-control" id="exampleSelect1">
+                <select class="form-control" id="exampleSelect1">
                   <option value="0">Keep it First</option>
                   <option value="1">After: Critical</option>
                   <option value="2">After: High</option>
